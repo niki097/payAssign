@@ -1,32 +1,32 @@
 import React from 'react'
-import product1 from '../../assets/imgs/product1.avif'
+import card1 from '../../assets/imgs/card1.webp'
 
 import Carousel from '../Carousel/Carousel'
 
 function AboutBodyWash() {
   const cardData = [
     {
-      Image1: product1,
+      Image1: card1,
       name: "Body Wash",
       price: "₹ 200",
     },
     {
-      Image1: product1,
+      Image1: card1,
       name: "Body Scrub",
       price: "₹ 400",
     },
     {
-      Image1: product1,
+      Image1: card1,
       name: "Book Lotion",
       price: "₹ 300",
     },
     {
-      Image1: product1,
+      Image1: card1,
       name: "Body Cream",
       price: "₹ 1000",
     },
     {
-      Image1: product1,
+      Image1: card1,
       name: "lorem, ipsum",
       price: "₹ 500",
     }

@@ -3,57 +3,100 @@
 	color: var(--colorText ) !important;
   border :1px solid var(--colorText);
 }
-.navbar-end select{
-  padding: 7px;
+.nav-container{
+  padding: 0 4rem;
+}
+.navbar-center img{
+  height: 40px;
 }
 
-.navbar-end select option{
-   background-color: #fff;
-  }
-  .navbar-center li{
-    font-weight: 600;
-    font-size: 16px;
-  }
-  .nav_login_btn {
-    background: var(--colorbackground);
-    color: #fff;
-    padding: 0.4rem 1rem;
-    letter-spacing: .4px;
-    border-radius: 5px;
-}
-.nav_login_btn:hover{
-  color: var(--colorWhite);
-}
-.more_nav_links{
-  background: var(--colorbackground);
-  color: #fff;
-}
-.navbar-center li:where(.menu li) {
-  color: var(--colorText);
-  position: relative;
-  display: flex;
-  flex-shrink: 0;
-  flex-direction:row;
-  flex-wrap: wrap;
-  align-items: stretch;
-}
-.search-bar{
-    display: flex;
-    border: 1px solid #80808038;
-    padding: 1px;
-    border-radius: 6px;
-    position: relative;
-}
 .search-icon{
-    position: absolute;
-    top: 10px;
-    right: 12px;
+   height: 20px;
 }
-.more_nav_links_dropdown{
-  font-size: 16px;
-  font-weight: 500;
+:where(.menu li){
+  font-size: 24px;
+}
+/* Slideshow.css */
+* {
+  box-sizing: border-box;
+}
+
+.mySlides {
+  display: none;
+}
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+.numbertext p{
+  color: var(--colorbackground);
+}
+/* Caption text */
+.numbertext{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.numbertext p{
+  display: none;
+}
+
+.text {
   color: var(--colorWhite);
+  font-size: 16px;
+  padding: 2px;
+  text-align: center;
 }
-.more_nav_links_dropdown details li{
-  color: var(--colorText);
+
+.active {
+  background-color: var(--colorbackground);
+  padding: 1rem;
 }
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 3s;
+  transition: 3s ease-in;
+}
+.nav-links{
+  color: #000;
+  text-align: center;
+  margin: 0 auto;
+}
+.nav-links li{
+  display: inline-block;
+  margin: 0;
+  padding:0 10px;
+}
+.nav-links a{
+  letter-spacing: 0.2em;
+  font-size: 15px
+}
+.nav-links button {
+  display: flex;
+  letter-spacing: 0.2em;
+  font-size: 15px;
+  align-items: center;
+  justify-content: center;
+}
+.options{
+  z-index: 11;
+}
+@keyframes fade {
+  from {
+    opacity: .9;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {
+    font-size: 11px;
+  }
+}
+

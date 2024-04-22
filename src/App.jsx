@@ -1,6 +1,5 @@
 import './App.css'
 import React from 'react'
-import Register from './components/Register/Register'
 
 import { Route, Router, Routes } from 'react-router-dom'
 
@@ -18,7 +17,6 @@ function App() {
     <Suspense fallback={<div>Loading...</div>}>
     <Routes>
       <Route path='/' element={ <Landing/>} />
-      <Route path='/signup' element={ <Register/>} />
     </Routes>
     </Suspense>
    

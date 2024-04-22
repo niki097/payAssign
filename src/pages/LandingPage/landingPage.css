@@ -4,8 +4,42 @@
     border-radius: 5px;
     background-size: cover;
 }
-.about_product{
-    background-color: #ed939b2e;
+.buy_any_five h1{
+    background-color: #3a295f;
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+    color:#f7f4ff;
+    font-weight: 600;
+}
+.step div {
+    position: relative;
+    margin: 2rem;
+    margin: auto;
+    padding-top: 1rem;
+    width: 100px;
+    height: 1px;
+    border-bottom: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.step div span {
+    position: absolute;
+    width: 16px;
+    top: 9px;
+    height: 16px;
+    border-radius: 50%;
+    background: cadetblue;
+}
+.step p{
+    margin-top: 10px;
+    line-height: 18px
+}
+.step h6{
+    font-size: 14px;
+    letter-spacing: .1px;
+    font-weight: 600;
 }
 
 .connect-now{
@@ -29,22 +63,33 @@
     font-weight: 600;
     text-align: center;
 }
-.online_pooja img{
-    height: 325px;
+.about_product_img img{
+   
+    border: 1rem solid #7e4689;
+    border-radius: 8px;
 }
-.browse_all_pooja_btn{
-    background-color:var(--colorbackground);
-    color: #fff;
-    cursor: pointer;
-    padding: .8rem 1.5rem;
+.about_product_div{
+    background-color:#c1a7c6;
+    padding: 10px;
 }
-.book_online_pooja{
-    padding: 0 5rem;
-    display: grid;
-    justify-content: center;
-    align-content: space-evenly;
-    gap: 4rem;
-
+.about_product {
+    padding: 12px;
+    border-radius: 10px;
+    background: #7e4689;
+    display: inline-block;
+    max-width: 100%;
+    position: relative;
+    text-align: left;
+    width: 100%;
+}
+.about_product p{
+color: #fff;
+}
+.about_product h2{
+color: #fff;
+text-transform: uppercase;
+font-size: 26px;
+font-weight: 600;
 }
 .testimonials_div{
     background-color: #ed939b2e;

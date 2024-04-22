@@ -72,7 +72,6 @@ function Carousel({ className, slidesToShow, customArrows, customDots, cardData,
                         {
                             carouselImage && <img src={card.Image1} alt="" />
                         }
-
                        
                     </div>
                     {
