@@ -1,0 +1,42 @@
+/* Keyframes for the sliding animation from right to left */
+@keyframes slide {
+    0% {
+      transform: translateX(0); /* Start at the first slide */
+    }
+    33% {
+      transform: translateX(-100%); /* Slide to the second slide */
+    }
+    66% {
+      transform: translateX(-200%); /* Slide to the third slide */
+    }
+    100% {
+      transform: translateX(0); /* Return to the first slide for a loop */
+    }
+  }
+  
+  /* Container for the slider */
+  .slider {
+    position: relative; /* To position elements within the container */
+    overflow: hidden; /* To hide overflow content during transition */
+    width: 100%; /* Full width of the parent container */
+    height: 24rem; /* Fixed height, like Tailwind's `h-96` */
+    background-color: #f3f4f6; /* Light gray background */
+  }
+  
+  /* Container for the slides with animation */
+  .slides {
+    display: flex; /* Flexbox for horizontal layout */
+    animation: slide 3s infinite; /* Apply the sliding animation every 3 seconds in a loop */
+  }
+  
+  /* Individual slide content styling */
+  .slide-content {
+    flex-shrink: 0; /* Prevents slides from shrinking */
+    width: 100%; /* Full width for each slide */
+    height: 100%; /* Full height for each slide */
+    display: flex; /* Flexbox to align content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    text-align: center; /* Center text */
+  }
+  

@@ -1,0 +1,171 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .text-3xl {
+    font-size: 1.5rem !important;
+  }
+
+  .text-xl {
+    font-size: 1rem !important;
+  }
+
+  .px-8 {
+    padding-left: 0rem !important;
+    padding-right: 1rem !important;
+  }
+
+  .testimonials h1 {
+    font-size: 23px;
+    padding: 0 1rem;
+    text-align: center;
+  }
+
+  .readingicon {
+    margin: .2rem;
+    gap: .4rem;
+  }
+
+  .more_nav_links {
+    display: none;
+  }
+
+  .book_online_pooja {
+    padding: 0 1rem !important;
+    gap: 1rem !important;
+  }
+
+  .testimonial_card {
+    padding: 1rem !important;
+    margin: 1rem !important;
+  }
+
+  .top_astro_heading h1 {
+    font-size: 23px;
+  }
+
+  .faq h1 {
+    text-align: center;
+  }
+
+  .blog_card_margin {
+    margin: 0 2rem;
+}
+
+  .our_top_astros {
+    padding: .4rem;
+    margin: .6rem !important;
+}
+
+  .top_astro_card h2 {
+    font-size: 16px;
+  }
+
+  .top_astro_btn button {
+    margin: 1rem;
+    font-size: 14px;
+    padding: 6px 15px;
+  }
+
+  
+  .top_astro_padding{
+    padding:0 1rem !important;
+  }
+.slick-slider {
+  margin: 0rem 1rem !important;
+}
+.testimonial_container{
+  margin:0 !important;
+}
+.faq_question{
+  padding: 1rem 2rem;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .testimonial_card {
+    padding: 1rem !important;
+    margin: 1rem !important;
+  }
+  .testimonial_container .slick-slider {
+    margin: 0rem 1rem !important;
+  }
+  .online_check_astros .slick-slider {
+    margin: 0rem 1rem !important;
+  }
+  .testimonial_container{
+    margin:0 !important;
+  }
+  .faq_questio{
+  padding: 1rem 2rem;
+}
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+  .testimonial_card {
+    padding: 1rem !important;
+    margin: 1rem !important;
+  }
+  .book_online_pooja {
+    padding: 3rem !important;
+    gap: 1rem !important;
+  }
+
+  .astro_services .product_cardImg img {
+    height: 190px !important;
+    width: 190px !important;
+  }
+
+  .astrologer_card button {
+    padding: .3rem 0;
+    margin: 1rem;
+  }
+  .testimonial_container{
+    margin:1 !important;
+  }
+  .testimonial_container .slick-slider {
+    margin: 0rem 3rem !important;
+  }
+  .slick-slider .astrologer_card {
+    padding: 0 1rem;
+  }
+
+  .top_astro_padding{
+    padding:0 2rem;
+  }
+
+  .top_astro_btn {
+    margin-top: .5rem;
+  }
+  .slick-slider {
+    margin: 0rem 1rem !important;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+/*----------------- Override dark mode styles------------------------*/
+
+@media (prefers-color-scheme: dark) {
+
+  /* Force light mode styles */
+  body {
+    background-color: #ffffff;
+    /* White background */
+    color: #000000;
+    /* Black text */
+  }
+
+  .navbar {
+    background-color: #ffffff !important;
+    /* White background */
+    color: #000000;
+    /* Black text */
+  }
+
+  .navbar-end select {
+    background-color: #ffffff !important;
+  }
+}

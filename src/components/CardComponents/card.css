@@ -1,0 +1,82 @@
+.product_cardImg{
+ position: relative;
+}
+.product_cardImg{
+	position: relative;
+}
+
+.product_cardImg .astrologerImage{
+	height: 160px;
+}
+.online-text{
+	color: green;
+	font-weight: 600;
+}
+.offline-text{
+	color: #E2343B;
+	font-weight: 600;
+}
+
+/* -------------------astro service card------------------- */
+.astro_services_bg{
+	background-color:#fcedee;
+	display: flex;
+	flex-direction: column;
+}
+.astro_services_bg h1{
+	font-size: 2.5rem;
+	color: #E2343B;
+	font-weight: 600;
+	padding: 1rem 0;
+}
+/* ----------------------astro_services--------------- */
+
+.astrologer_cardImg{
+	display: flex;
+	justify-content: center;
+}
+.astro_services .astrologer_cardImg img{
+	height: 221px;
+	width: 216px;
+}
+.blog_card_margin {
+    margin: 0 4rem;
+}
+.blog_card_img{
+	height: 140px;
+}
+.blog_border h2{
+	color: var(--colorText);
+}
+.blog_border p{
+	padding: .5rem;
+	margin: 10px 0;
+}
+.blog_border{
+	border: 1px solid #D9D9D9;
+}
+.testimonial_card {
+	width: auto !important;
+	border: 1px solid #F1F1F1;
+	box-shadow: 0px 7px 14px 0px #EAEAEA;
+	border-radius: 5px;
+	padding: 3rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.testimonial_container{
+	margin: 0 3rem;
+}
+.testimonial_container .slick-slide .slick-active .slick-current{
+	margin: 0 10px;
+}
+.testimonial_container .slick-arrow-prev {
+    margin: 0 1rem;
+}
+.testimonial_container .slick-arrow-next{
+    margin: 0 1rem;
+}
+
+
+

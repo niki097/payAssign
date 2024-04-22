@@ -1,0 +1,28 @@
+/* Global CSS Variables */
+:root {
+    /* Text Colors */
+    --colorText: #3a295f;
+    ; /*  orange text color */
+    --colorWhite: #fff; /* White text color */
+    --colorSuccess: #05c165; /* Success color */
+ 
+    /* Background and Border Colors */
+    --colorbackground: #b893ed;
+    ; /* Light gray background color */
+    --buttonbackground: #b893ed;
+    ;
+    --colorBorder: #dadce0; /* Light gray border color */
+  }
+  
+  /* Color Utility Classes */
+  .colorText{
+    color: var(--colorText);
+  }
+  
+  .colorText50 {
+    color: var(--colorText50);
+  }
+  
+  .colorWhite {
+    color: var(--colorWhite);
+  }

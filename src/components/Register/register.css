@@ -1,0 +1,102 @@
+.register_form {
+    margin: 1rem 1rem; /* Adjusted margin for smaller screens */
+}
+.register-div {
+	box-shadow: 0 4px 64px #00000026;
+	display: flex;
+	width: 880px;
+	padding: 10px 15px 13px 13px;
+	background: #fff;
+	/* height: calc(100vh - 65px); */
+	overflow: hidden;
+	border-radius: 12px 60px 0;
+	position: relative;
+}
+.register {
+    background: #DE1F27E5;
+    border-radius: 12px 60px 0;
+    position: relative;
+    padding: 0rem 2rem;
+}
+
+.register h1 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 0; /* Removed margin to prevent excessive space */
+}
+
+.register h1,
+.register h5 {
+    color: #ffffff;
+    text-align: start;
+    margin: 10px 0;
+}
+
+.register p {
+    position: relative;
+    text-align: center;
+    color: #D6D6D6;
+    border: 1px solid #fff;
+    margin: 2rem 0;
+    background-color: transparent;
+}
+
+.register p span {
+    position: absolute;
+    color: #ffffff;
+    background-color: #E2343B;
+    top: -15px;
+    padding: .2rem;
+    transform: translateX(-50%) translateY(-3%); /* Corrected transform values */
+}
+
+.input_number {
+    display: flex;
+    flex-direction: column; /* Adjusted layout for small screens */
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 14px;
+    box-shadow: 1px 2px 6px 0px #00000040;
+}
+
+.input_number input::placeholder {
+    color: #808080;
+}
+
+.send_otp_btn {
+    background-color: #FFB900;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    border-radius: 10px;
+    padding: .8rem;
+}
+.send_otp_btn button{
+    border: none;
+    outline: none;
+}
+
+.continue_with_email {
+    display: flex;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: .8rem;  
+}
+
+.privacy {
+    text-align: center;
+    border: none !important;
+    color: #D6D6D6;
+    margin: 2rem 0;
+    background-color: transparent;
+}
+
+.privacy > a {
+    color: #FFB900;
+}
+
+.continue_with_email button span {
+    padding-right: 2rem;
+}

@@ -1,0 +1,56 @@
+.menu li > :not(ul, .menu-title, details, .btn):active, .menu li > :not(ul, .menu-title, details, .btn).active, .menu li > details > summary:active {
+	background-color: transparent !important;
+	color: var(--colorText ) !important;
+  border :1px solid var(--colorText);
+}
+.navbar-end select{
+  padding: 7px;
+}
+
+.navbar-end select option{
+   background-color: #fff;
+  }
+  .navbar-center li{
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .nav_login_btn {
+    background: var(--colorbackground);
+    color: #fff;
+    padding: 0.4rem 1rem;
+    letter-spacing: .4px;
+    border-radius: 5px;
+}
+.nav_login_btn:hover{
+  color: var(--colorWhite);
+}
+.more_nav_links{
+  background: var(--colorbackground);
+  color: #fff;
+}
+.navbar-center li:where(.menu li) {
+  color: #fff;
+  position: relative;
+  display: flex;
+  flex-shrink: 0;
+  flex-direction:row;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+.search-bar{
+    display: flex;
+    border: 1px solid #80808038;
+    padding: 1px;
+    border-radius: 6px;
+    position: relative;
+}
+.search-icon{
+    position: absolute;
+    top: 10px;
+    right: 12px;
+}
+.more_nav_links_dropdown{
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}

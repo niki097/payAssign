@@ -1,0 +1,59 @@
+.hero_section .banner {
+    background: url('/src/assets/imgs/Banner.jpg');
+    color: var(--colorwhite);
+    border-radius: 5px;
+    background-size: cover;
+}
+.about_product{
+    background-color: #ed939b2e;
+}
+
+.connect-now{
+    background-color: var(--colorWhite);
+    border: 1px solid var(--colorText);
+    color: var(--colorText);
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.feedback_herosection{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    gap: 1.5rem;
+}
+.feedback_herosection img{
+    height: 48px;
+}
+.feedback_herosection p{
+    font-weight: 600;
+    text-align: center;
+}
+.online_pooja img{
+    height: 325px;
+}
+.browse_all_pooja_btn{
+    background-color:var(--colorbackground);
+    color: #fff;
+    cursor: pointer;
+    padding: .8rem 1.5rem;
+}
+.book_online_pooja{
+    padding: 0 5rem;
+    display: grid;
+    justify-content: center;
+    align-content: space-evenly;
+    gap: 4rem;
+
+}
+.testimonials_div{
+    background-color: #ed939b2e;
+}
+.faq{
+   padding-top: 3rem;
+}
+.faq_question{
+    padding: 1rem 5rem;
+}
+
+
