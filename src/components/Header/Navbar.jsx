@@ -41,8 +41,8 @@ function Navbar() {
                 <SearchBar placeholder="Search" />
                     {/* Add your navigation links here */}
                     <ul className="menu menu-horizontal px-1">
-                        <li><Link to='/chatwithastrologer' className={activeLink === '/Best Sellers' ? 'active' : ''}>Best Sellers</Link></li>
-                        <li><Link to='/talkwithastrologer' className={activeLink === '/New arrivals' ? 'active' : ''}>New Arrivals</Link></li>
+                        <li><Link to='/bestseller' className={activeLink === '/Best Sellers' ? 'active' : ''}>Best Sellers</Link></li>
+                        <li><Link to='/newarrivals' className={activeLink === '/New arrivals' ? 'active' : ''}>New Arrivals</Link></li>
                     </ul>
                 </div>
                 <div className="navbar-end pl-2">

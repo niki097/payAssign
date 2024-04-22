@@ -4,13 +4,11 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import './carousel.css';
-import StarRating from '../Rating/StarRating';
-import starImage from "../../assets/imgs/star.svg";
 import testimonial1 from "../../assets/imgs/testimonial1.svg";
 
 
 function Carousel({ className, slidesToShow, customArrows, customDots, cardData,
-    showButton, testimonialWords, carouselName, carouselPrice, carouselImage, starating, }) {
+    showButton, testimonialWords, carouselName, carouselPrice, carouselImage}) {
 
     const PrevArrow = (props) => {
         const { onClick } = props;
@@ -72,12 +70,10 @@ function Carousel({ className, slidesToShow, customArrows, customDots, cardData,
                    
                     <div className="product_cardImg">
                         {
-                            carouselImage && <img src={card.product1} alt="" />
+                            carouselImage && <img src={card.Image1} alt="" />
                         }
 
-                        {
-                            starating && <StarRating imageUrl={starImage} text="4.5" className='s_rating-3' />
-                        }
+                       
                     </div>
                     {
                         carouselName && <h2 className='text-center font-bold text-xl my-3'>{card.name}</h2>
