@@ -41,7 +41,18 @@
     letter-spacing: .1px;
     font-weight: 600;
 }
-
+.shop_now_container{
+    background-color: #b893ed;
+    padding: 1.9rem 3rem;
+    margin: auto;
+}
+.shop_now_btn button{
+    letter-spacing: .3em;
+    margin: 0 2rem;
+}
+.countdown span{
+    border-left: 1px solid #000;
+}
 .connect-now{
     background-color: var(--colorWhite);
     border: 1px solid var(--colorText);
