@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import '../../assets/media.css'
 import './landingPage.css'
 import Layout from '../../components/Layout/Layout'
@@ -12,7 +12,20 @@ import AutoSlider from '../../components/AutoSlider'
 
 
 function Landing() {
+const [remainingTime, setRemainingTime] = useState(12 * 3600); // 12 hours in seconds
 
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setRemainingTime((prev) => (prev > 0 ? prev - 1 : 0)); // Decrement or stop at 0
+    }, 1000);
+
+    return () => clearInterval(interval); // Clean up on unmount
+  }, []);
+
+  // Convert remaining time into hours, minutes, seconds
+  const hours = Math.floor(remainingTime / 3600);
+  const minutes = Math.floor((remainingTime % 3600) / 60);
+  const seconds = remainingTime % 60;
   return (
     <Layout>
       <div className="">
@@ -28,7 +41,22 @@ function Landing() {
         </a>
       </div>
       </div>
-
+  <div className="shop_now_container flex flex-col items-center m-6 md:flex-row md:justify-between">
+        <div className="text-center md:text-left mb-4 md:mb-0">
+          <h1 className="text-3xl font-bold text-white text-center">BUY ANY 5 PRODUCTS <br /> FOR JUST ₹999</h1>
+          <p className="text-white text-center py-2">LIMITED TIME OFFER</p>
+        </div>
+        <div className="flex items-center justify-between mb-4 md:mb-0">
+          <div className="text-center flex text-white space-x-4 gap-3">
+            <p className="grid text-2xl font-bold border-r border-white pr-4">{`${hours} `} <span className='text-lg font-bold' >hours</span> </p>
+            <p className="grid text-2xl font-bold border-r border-white pr-4">{`${minutes} `} <span>min</span></p>
+            <p className="grid text-2xl font-bold">{`${seconds}`} <span>sec</span></p>
+          </div>
+        </div>
+        <div className="text-center md:text-right shop_now_btn">
+          <button className="bg-black text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300">Shop Now!</button>
+        </div>
+      </div>
       <div className="container mx-auto py-8 my-5">
         <div className="col grid text-center">
           <h1 className="text-3xl font-bold pb-8">Lorem, ipsum. </h1>
