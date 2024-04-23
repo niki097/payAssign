@@ -12,7 +12,9 @@
     padding-left: 0rem !important;
     padding-right: 1rem !important;
   }
-
+.menu-horizontal{
+  display: flex !important;
+}
   .testimonials h1 {
     font-size: 23px;
     padding: 0 1rem;
