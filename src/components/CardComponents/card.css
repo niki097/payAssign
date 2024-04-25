@@ -63,6 +63,7 @@
 	padding: 3rem;
     display: grid;
     justify-content: center;
+	background-color: #fff;
     align-items: center;
 }
 .testimonial_container{
@@ -77,6 +78,59 @@
 .testimonial_container .slick-arrow-next{
     margin: 0 1rem;
 }
+/* ---------------productcard----------- */
+.productcard-btn{
+	background-color: #76c43b;
+	border: none;
+	width: 100%;
+	outline: none;
+	color:#fff;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.product-card img{
+	height: 180px; 
+	width: 100%; 
+	object-fit: cover; 
+	transition: opacity 0.3s ease;
+  }
+  
+  .product-card {
+	padding: 12px; 
+	margin: 8px; 
+	border: 1px solid #ddd; 
+	border-radius: 8px;
+	background: white; 
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+  /* card.css */
 
 
+  
+  /* Hover effect: change image and smooth transition */
+  .product-card img:hover {
+	background-image: url('/path/to/hover-image.jpg'); /* New image on hover */
+	background-size: cover; /* Ensure the hover image fits the wrapper */
+	background-position: center; /* Center the hover image */
+  }
+  
+ 
+  
+  
+.shop-by-cat-img{
+	height: 220px;
+	width: 100%;
+	transition: transform 0.5s ease; /* Smooth transition for hover effect */
+}
 
+.shop-by-cat-img:hover {
+  transform: scale(1.03);
+  cursor: pointer; /* Zoom in when hovering */
+}
+.shopbycat-btn{
+	width: 100%;
+	border-radius: 0% !important;
+	margin: 0 !important;
+}
+  

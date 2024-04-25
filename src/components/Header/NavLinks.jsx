@@ -33,7 +33,7 @@ const MegaMenuWithSlide = () => {
                         <span className="absolute bottom-0 left-0 h-1 bg-blue-500 transition-all duration-300 w-0 group-hover:w-full"></span>
                     </li>
                     <li className="relative group">
-                        <Link href="#" className="text-lg">SANFE GIFT SET WITH RENEE PERFUME</Link>
+                        <Link href="#" className="text-lg">SANFE GIFT SET WITH RENEE</Link>
                         <span className="absolute bottom-0 left-0 h-1 bg-blue-500 transition-all duration-300 w-0 group-hover:w-full"></span>
                     </li>
                     {/* Gifts Kit Dropdown */}

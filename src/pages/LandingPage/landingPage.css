@@ -12,6 +12,10 @@
     color:#f7f4ff;
     font-weight: 600;
 }
+.step{
+    box-shadow: 0 5px 7px -6px #27272780;
+    padding: 15px;
+}
 .step div {
     position: relative;
     margin: 2rem;
@@ -41,7 +45,18 @@
     letter-spacing: .1px;
     font-weight: 600;
 }
-
+.shop_now_container{
+    background-color: #b893ed;
+    padding: 1.9rem 3rem;
+    margin: auto;
+}
+.shop_now_btn button{
+    letter-spacing: .3em;
+    margin: 0 2rem;
+}
+.countdown span{
+    border-left: 1px solid #000;
+}
 .connect-now{
     background-color: var(--colorWhite);
     border: 1px solid var(--colorText);
@@ -49,7 +64,20 @@
     font-size: 1.3rem;
     font-weight: 600;
 }
-
+.shopbychoice{
+    background-color: rgba(184, 147, 237, 0.12);
+}
+.product-view-btn{
+    background-color: #fff !important;
+    letter-spacing: .3em;
+    font-size: 13px !important;
+    box-shadow: none !important;
+    color: #000 !important;
+    border: 1px solid #e8e8e1 !important;
+}
+.product-view-btn:hover{
+    border: 1px solid #000 !important;
+}
 .feedback_herosection{
     display: flex;
     justify-content: space-evenly;
