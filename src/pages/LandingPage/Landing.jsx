@@ -26,10 +26,22 @@ function Landing() {
   }, []);
 
   // Convert remaining time into hours, minutes, seconds
+  let hours = Math.floor(remainingTime / 3600);
+  let minutes = Math.floor((remainingTime % 3600) / 60);
+  let seconds = remainingTime % 60;
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setRemainingTime((prev) => (prev > 0 ? prev - 1 : 0)); // Decrement or stop at 0
+    }, 1000);
+
+    return () => clearInterval(interval); // Clean up on unmount
+  }, []);
+
+  // Convert remaining time into hours, minutes, seconds
   const hours = Math.floor(remainingTime / 3600);
   const minutes = Math.floor((remainingTime % 3600) / 60);
   const seconds = remainingTime % 60;
-
   return (
     <Layout>
       <div className="">
